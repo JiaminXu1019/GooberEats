@@ -19,5 +19,5 @@ The output of your delivery logistics system is a set of driving directions for 
 delivery robot to guide it from the central depot, where it picks up the food, to each of its delivery
 stops, then back to the central depot.
 
-![Example of turn by turn instructions generated!]()
+![Example of turn by turn instructions generated](https://user-images.githubusercontent.com/37451521/77239123-36fb6b80-6b94-11ea-92e2-bfd4175045ee.png)
 
