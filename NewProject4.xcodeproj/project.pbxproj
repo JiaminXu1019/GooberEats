@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		F15BC3C624148F6B0073A7D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F15BC3C524148F6B0073A7D3 /* main.cpp */; };
+		F15BC3CE24148F8D0073A7D3 /* DeliveryOptimizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F15BC3CC24148F8D0073A7D3 /* DeliveryOptimizer.cpp */; };
+		F15BC3D024148FA00073A7D3 /* DeliveryPlanner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F15BC3CF24148FA00073A7D3 /* DeliveryPlanner.cpp */; };
+		F15BC3D224148FBB0073A7D3 /* provided.h in Sources */ = {isa = PBXBuildFile; fileRef = F15BC3D124148FBB0073A7D3 /* provided.h */; };
+		F15BC3D424148FFA0073A7D3 /* ExpandableHashMap.h in Sources */ = {isa = PBXBuildFile; fileRef = F15BC3D324148FFA0073A7D3 /* ExpandableHashMap.h */; };
+		F15BC3D6241490110073A7D3 /* StreetMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F15BC3D5241490110073A7D3 /* StreetMap.cpp */; };
+		F190AC3A241DB887000BB071 /* PointToPointRouter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F15BC3D7241490260073A7D3 /* PointToPointRouter.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		F15BC3C224148F6B0073A7D3 /* NewProject4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NewProject4; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15BC3C524148F6B0073A7D3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F15BC3CC24148F8D0073A7D3 /* DeliveryOptimizer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DeliveryOptimizer.cpp; sourceTree = "<group>"; };
+		F15BC3CF24148FA00073A7D3 /* DeliveryPlanner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DeliveryPlanner.cpp; sourceTree = "<group>"; };
+		F15BC3D124148FBB0073A7D3 /* provided.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = provided.h; sourceTree = "<group>"; };
+		F15BC3D324148FFA0073A7D3 /* ExpandableHashMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpandableHashMap.h; sourceTree = "<group>"; };
+		F15BC3D5241490110073A7D3 /* StreetMap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StreetMap.cpp; sourceTree = "<group>"; };
+		F15BC3D7241490260073A7D3 /* PointToPointRouter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PointToPointRouter.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				F15BC3C524148F6B0073A7D3 /* main.cpp */,
+				F15BC3D124148FBB0073A7D3 /* provided.h */,
+				F15BC3CC24148F8D0073A7D3 /* DeliveryOptimizer.cpp */,
+				F15BC3CF24148FA00073A7D3 /* DeliveryPlanner.cpp */,
+				F15BC3D324148FFA0073A7D3 /* ExpandableHashMap.h */,
+				F15BC3D5241490110073A7D3 /* StreetMap.cpp */,
+				F15BC3D7241490260073A7D3 /* PointToPointRouter.cpp */,
 			);
 			path = NewProject4;
 			sourceTree = "<group>";
@@ -120,6 +138,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F15BC3C624148F6B0073A7D3 /* main.cpp in Sources */,
+				F15BC3D024148FA00073A7D3 /* DeliveryPlanner.cpp in Sources */,
+				F15BC3D424148FFA0073A7D3 /* ExpandableHashMap.h in Sources */,
+				F15BC3D6241490110073A7D3 /* StreetMap.cpp in Sources */,
+				F190AC3A241DB887000BB071 /* PointToPointRouter.cpp in Sources */,
+				F15BC3D224148FBB0073A7D3 /* provided.h in Sources */,
+				F15BC3CE24148F8D0073A7D3 /* DeliveryOptimizer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
