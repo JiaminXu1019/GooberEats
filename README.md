@@ -8,6 +8,7 @@ navigation instructions for GooberEats delivery robots.
 Optimizes the delivery order (to reduce driving time and
 ensure the food doesn’t cool too much) and generates turn-by-turn navigation and delivery
 instructions for a delivery robot so it can deliver all of its food efficiently. 
+(Greedy Algorithm and A* Search Algorithm)
 
 The input to the delivery logistics system consists of:
 1. A bunch of Open Street Map data that contains details on thousands of streets in
