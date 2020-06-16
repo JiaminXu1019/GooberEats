@@ -16,7 +16,7 @@ Westwood, and lists the latitude and longitude of each street segment block by b
 2. The latitude and longitude of the central meal prep depot.
 3. The latitude and longitude of one or more delivery stops (always on street corners),
 along with what food item must be delivered at each such street corner.
-The output of your delivery logistics system is a set of driving directions for a GooberEats
+The output of the delivery logistics system is a set of driving directions for a GooberEats
 delivery robot to guide it from the central depot, where it picks up the food, to each of its delivery
 stops, then back to the central depot.
 
